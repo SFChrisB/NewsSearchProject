@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsOrderLabels">
+    <item>@string/settingsOrderRecentLabel</item>
+    <item>@string/settingsOrderOldestLabel</item>
+    </string-array>
+
+    <string-array name="settingsOrderValues">
+        <item>@string/queryOrderRecentValue</item>
+        <item>@string/settingsOrderOldestValue</item>
+    </string-array>
+</resources>

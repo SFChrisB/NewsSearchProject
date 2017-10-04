@@ -1,0 +1,34 @@
+<resources>
+    <string name="appName">News Searching App</string>
+
+    <string name="querySettings">Query Settings</string>
+    <string name="nullInternet">No internet connection.</string>
+
+    <string name="querySettingsKey" translatable="false">q</string>
+    <string name="querySettingsDef" translatable="false">Sports</string>
+
+    <string name="queryOrderKey" translatable="false">order-by</string>
+    <string name="queryOrderDef" translatable="false">@string/queryOrderRecentValue</string>
+    <string name="queryOrderRecentValue" translatable="false">newest</string>
+
+
+    <!-- activity_news txt -->
+    <string name="picText">News Article Searching App</string>
+
+    <!-- list_item txt -->
+    <string name="xmlType">  -</string>
+    <string name="xmlPubD">Publication Date:   </string>
+
+    <!-- menu:main txt -->
+    <string name="queryMenuItem">Settings</string>
+
+    <!-- xml:settings_preferences txt -->
+    <string name="queryOrderLabel">Order By</string>
+    <string name="querySettingsLabel">Topic Query</string>
+
+    <!-- arrays txt -->
+    <string name="settingsOrderRecentLabel">Newest</string>
+    <string name="settingsOrderOldestLabel">Oldest</string>
+    <string name="settingsOrderOldestValue" translatable="false">oldest</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- styles dimens for activity_news-->
+    <dimen name="oneDivider">1dp</dimen>
+    <dimen name="twoDivider">2dp</dimen>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="titleTextPadding">16dp</dimen>
+    <dimen name="titleTextSize">18sp</dimen>
+
+    <!-- styles dimens for list_item -->
+    <dimen name="labelPadding">6dp</dimen>
+    <dimen name="xmlTextSize">16sp</dimen>
+    <dimen name="itemListPadding">20dp</dimen>
+
+</resources>

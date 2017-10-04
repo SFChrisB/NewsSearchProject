@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--                          -->
+    <!-- styles for activity_news -->
+    <!--                          -->
+
+    <style name="imViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/titleTextPadding</item>
+        <item name="android:background">@color/picBackgroundColor</item>
+    </style>
+
+    <style name="picText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/titleTextPadding</item>
+        <item name="android:layout_margin">@dimen/titleTextPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+    </style>
+
+    <style name="viewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/oneDivider</item>
+        <item name="android:background">@color/textTitleColor</item>
+    </style>
+
+    <style name="listViewStyle">
+        <item name="android:layout_below">@id/viewTwo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/marginSmall</item>
+        <item name="android:divider">@color/textTitleColor</item>
+        <item name="android:dividerHeight">@dimen/twoDivider</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="emptyTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--                          -->
+    <!-- styles for list_item     -->
+    <!--                          -->
+
+    <style name="LinStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/itemListPadding</item>
+    </style>
+
+    <style name="SectionXMLStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@color/backgroundBlock</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:padding">@dimen/labelPadding</item>
+    </style>
+
+    <style name="TypeXMLStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:padding">@dimen/labelPadding</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/picBackgroundColor</item>
+    </style>
+
+    <style name="PubLXMLStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/pubTextColor</item>
+        <item name="android:textSize">@dimen/xmlTextSize</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:padding">@dimen/labelPadding</item>
+    </style>
+
+    <style name="DateXMLStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/pubTextColor</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:padding">@dimen/labelPadding</item>
+    </style>
+
+</resources>
